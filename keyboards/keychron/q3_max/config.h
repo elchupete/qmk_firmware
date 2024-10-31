@@ -82,3 +82,6 @@
 #define FN_KEY_2 MO(3)
 
 #define MATRIX_IO_DELAY 10
+
+/* additional RGB Effects activates*/
+#define ENABLE_RGB_MATRIX_SOLID_REACTIVE

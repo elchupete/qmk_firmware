@@ -40,10 +40,12 @@
                 ["Typing Heatmap", 16],
                 ["Digital Rain", 17],
                 ["Reactive Simple", 18],
-                ["Reactive Multiwide", 19],
-                ["Reactive Multinexus", 20],
-                ["Splash", 21],
-                ["Solid Splash", 22]
+                ["Reactive", 19],
+                ["Reactive Multiwide", 20],
+                ["Reactive Multinexus", 21],
+                ["Splash", 22],
+                ["Solid Splash", 23],
+                ["Stefan", 24]
               ]
             },
             {
@@ -54,7 +56,7 @@
               "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
             },
             {
-              "showIf": "{id_qmk_rgb_matrix_effect} != 0 && ( {id_qmk_rgb_matrix_effect} < 4 || {id_qmk_rgb_matrix_effect} == 18 || ({id_qmk_rgb_matrix_effect} > 17 && {id_qmk_rgb_matrix_effect} != 21) ) ",
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0 && ( {id_qmk_rgb_matrix_effect} < 4 || {id_qmk_rgb_matrix_effect} == 18 || ({id_qmk_rgb_matrix_effect} > 17 && {id_qmk_rgb_matrix_effect} != 22) ) ",
               "label": "Color",
               "type": "color",
               "content": ["id_qmk_rgb_matrix_color", 3, 4]
